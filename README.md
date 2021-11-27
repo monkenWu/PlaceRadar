@@ -25,7 +25,7 @@
 docker-compose up
 ```
 
-2. 將專案根目錄中的 ``footprint.sql`` 匯入至資料庫
+2. 將專案根目錄中的 ``placeradar.sql`` 匯入至資料庫
 
 3. 專案預設連接埠為 `8080` 
     * `localhost:8080`
@@ -46,7 +46,7 @@ docker-compose up
         $url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query='.preg_replace('/\s(?=)/', '', $_POST['searchText']).'&key={apiKey}&language='.$_POST['country'];
         ```
 
-### 二、 使用之開放資料概覽
+## 使用之開放資料概覽
 + 【台】 
   -  鄉鎮戶數及人口數(9701)
 	-  犯罪資料
